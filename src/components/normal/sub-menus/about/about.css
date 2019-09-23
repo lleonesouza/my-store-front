@@ -1,0 +1,86 @@
+.about {
+  padding-top: 100px;
+  background: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about h1 {
+  color: white;
+}
+
+.about .notes {
+  height: auto;
+  width: 60vw;
+  margin: auto;
+  color: white;
+}
+
+.about .notes p {
+  margin: 50px;
+  font-size: 15px;
+  letter-spacing: 1.2px;
+  text-align: center;
+}
+
+.about .wrapper {
+  height: 100vh;
+  width: 50vw;
+  margin: auto;
+}
+
+.about .wrapper .container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  row-gap: 100px;
+}
+
+.about .wrapper .container .box {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  background: rgba(255, 255, 255, 0.479);
+  height: 45vh;
+  width: 25vw;
+  color: #030303;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about .wrapper .container .box p {
+  font-size: 18px;
+  position: relative;
+  margin: 45px;
+  width: 65%;
+  text-align: center;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.about .wrapper .container .box a {
+  color: white;
+}
+/*# sourceMappingURL=about.css.map */

@@ -1,0 +1,58 @@
+$color1: rgb(74, 0, 134);
+$color2: rgb(79, 117, 155);
+$color3: rgb(74, 0, 134);
+$color4: rgb(74, 0, 134);
+
+
+$color11: rgb(199,97,85);
+$color22: #701C1C;
+$color33: #DFF3E4;
+$color44: #27213C;
+$color55: #0A0908;
+
+
+//Home
+.App-header {
+    min-height: 100vh;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+  }
+
+.particle{
+    height: 95vh;
+    opacity: 0.3;
+  }
+  
+  .App-header .header-text{
+    position: absolute;
+    left: 5%;
+    width: 50vw;
+  }
+  
+  .App-header .header-text h3{
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: 1px 1px 1px black;
+    font-weight: 800;
+    font-size: calc(38px + 2vmin);
+  }
+  
+  .App-header .header-text h3 span{
+    color: $color33;
+  }
+  .App-header .header-text button{
+    background: rgba(255, 255, 255, 0.514);
+    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.788);
+    font-weight: 500;
+  }
+ 
+

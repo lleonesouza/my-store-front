@@ -1,0 +1,53 @@
+.App-header {
+  min-height: 100vh;
+  width: 100%;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.particle {
+  height: 95vh;
+  opacity: 0.3;
+}
+
+.App-header .header-text {
+  position: absolute;
+  left: 5%;
+  width: 50vw;
+}
+
+.App-header .header-text h3 {
+  color: rgba(255, 255, 255, 0.8);
+  text-shadow: 1px 1px 1px black;
+  font-weight: 800;
+  font-size: calc(38px + 2vmin);
+}
+
+.App-header .header-text h3 span {
+  color: #DFF3E4;
+}
+
+.App-header .header-text button {
+  background: rgba(255, 255, 255, 0.514);
+  padding: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: none;
+  border-radius: 10px;
+  color: rgba(0, 0, 0, 0.788);
+  font-weight: 500;
+}
+/*# sourceMappingURL=home.css.map */
